@@ -35,7 +35,7 @@ jobs:
       working-directory: Pass-List-App/app 
       
     - name: publicarCarpetaCoberturas
-      uses: action/upload-artifact@v3
+      uses: actions/upload-artifact@v3
       with: 
         name: CoverageTest
         path: Pass-List-App/app/cobertura_pruebas
